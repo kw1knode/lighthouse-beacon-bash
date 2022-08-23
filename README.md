@@ -9,7 +9,7 @@
 
 `chmod +x lighthouse_install.sh`
 
-### **Edit checkpoint to a beacon rpc or remove to sync from genesis** ###
+### **Edit checkpoint url to a trusted source or remove to sync from genesis** ###
 
 --checkpoint-sync-url
 
