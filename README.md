@@ -3,7 +3,7 @@
 
 ========================================================
 #### **Download install.sh**
-`git clone `
+`git clone https://github.com/kw1knode/lighthouse.git`
 
 `cd lighthouse`
 
