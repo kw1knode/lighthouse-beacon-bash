@@ -39,3 +39,6 @@ https://raw.githubusercontent.com/sigp/lighthouse-metrics/master/dashboards/Summ
 ### **Official Repo** ###
 
 https://github.com/sigp/lighthouse
+
+### **Notes** ###
+This is our merge release! All mainnet users must upgrade to this release v3.0.0 (or a subsequent release) before the Bellatrix fork on Sept 6, 2022, 11:34:47am UTC.
