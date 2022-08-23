@@ -1,8 +1,11 @@
+#Updates
 sudo apt-get update -y && sudo apt-get upgrade -y
+#Install Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+#Install Dependencies 
 sudo apt install -y git gcc g++ make cmake pkg-config libssl-dev
-sudo apt update
 
+# Pull and Permissions
 git clone https://github.com/sigp/lighthouse.git
 cd lighthouse
 make
@@ -11,7 +14,7 @@ sudo useradd --no-create-home --shell /bin/false lighthousebeacon
 sudo mkdir -p /var/lib/lighthouse/beacon-node
 sudo chown -R lighthousebeacon:lighthousebeacon /var/lib/lighthouse/beacon-node
 
-
+#Systemctl
 echo "[Unit]
 Description=Lighthouse Beacon Node
 After=network.target
@@ -28,6 +31,7 @@ ExecStart=/usr/local/bin/lighthouse  beacon_node --checkpoint-sync-url https://<
 [Install]
 WantedBy=default.target" >> /etc/systemd/system/lighthousebeacon.service
 
+#Run Lighthouse
 sudo systemctl daemon-reload
 sudo systemctl start lighthousebeacon
 
