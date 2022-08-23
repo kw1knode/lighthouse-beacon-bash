@@ -29,7 +29,7 @@ No, in fact it is more secure! Checkpoint sync guards against long-range attacks
 
 (Found in erigon data directory)
 
-`chmod 644 /data/erigon/datadir/jwt.hex` 
+`chmod 774 /data/erigon/datadir/jwt.hex` 
 
 ### **Install Lighthouse** ###
 
