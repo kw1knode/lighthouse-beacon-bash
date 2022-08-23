@@ -17,7 +17,7 @@
 
 --execution-jwt `/data/erigon/datadir/jwt.hex`
 
-### **Add to location of jwt.hex to your erigon deployment** ###
+### **Add flag and location to jwt.hex to erigon** ###
 
 --authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
 
