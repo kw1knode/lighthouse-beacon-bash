@@ -17,5 +17,9 @@
 
 --execution-jwt `/data/erigon/datadir/jwt.hex`
 
+### **Add to location of jwt.hex to your erigon deployment** ###
+
+--authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
+
 #### **Run install.sh**
 `./lighthouse_install.sh`
