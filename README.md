@@ -2,7 +2,7 @@
 
 
 ========================================================
-### **Download lighthouse_install.sh** ###
+### **Pull and Permissions** ###
 `git clone https://github.com/kw1knode/lighthouse.git`
 
 `cd lighthouse`
