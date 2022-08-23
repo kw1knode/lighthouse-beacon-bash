@@ -25,6 +25,8 @@
 
 `./lighthouse_install.sh`
 
+### **Lighthouse Status** ###
+
 ### **Lighthouse Grafana Dashboard** ###
 
 https://raw.githubusercontent.com/sigp/lighthouse-metrics/master/dashboards/Summary.json
