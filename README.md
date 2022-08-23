@@ -1,8 +1,8 @@
-# Lighthouse Beacon Node
+# Lighthouse Beacon Node Install
 
 
 ========================================================
-#### **Download install.sh**
+### **Download lighthouse_install.sh** ###
 `git clone https://github.com/kw1knode/lighthouse.git`
 
 `cd lighthouse`
@@ -22,4 +22,13 @@
 --authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
 
 #### **Run install.sh**
+
 `./lighthouse_install.sh`
+
+### **Lighthouse Grafana Dashboard** ###
+
+https://raw.githubusercontent.com/sigp/lighthouse-metrics/master/dashboards/Summary.json
+
+### **Official Repo** ###
+
+https://github.com/sigp/lighthouse
