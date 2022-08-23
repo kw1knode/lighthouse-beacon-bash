@@ -17,11 +17,11 @@
 
 --execution-jwt `/data/erigon/datadir/jwt.hex`
 
-### **Add flag and location to jwt.hex to erigon** ###
+### **Add flag and location of jwt.hex to erigon** ###
 
 --authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
 
-#### **Run install.sh** ###
+### **Install Lighthouse** ###
 
 `./lighthouse_install.sh`
 
