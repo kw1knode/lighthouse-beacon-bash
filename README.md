@@ -23,7 +23,7 @@ No, in fact it is more secure! Checkpoint sync guards against long-range attacks
 
 ### **Add flag and location of jwt.hex to erigon** ###
 
---authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
+--authrpc.jwtsecret=`/data/erigon/datadir/jwt.hex`
 
 ### **Install Lighthouse** ###
 
