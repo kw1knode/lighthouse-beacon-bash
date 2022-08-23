@@ -30,7 +30,7 @@ RestartSec=5
 ExecStart=/usr/local/bin/lighthouse  beacon_node --checkpoint-sync-url https://<PROJECT-ID>:<PROJECT-SECRET>@eth2-beacon-mainnet.infura.io --datadir /var/lib/lighthouse/beacon-node --network mainnet --metrics --execution-endpoint http://localhost:8551 --execution-jwt /data/erigon/datadir/jwt.hex
 
 [Install]
-WantedBy=default.target" >> /etc/systemd/system/lighthousebeacon.service
+WantedBy=default.target" >> /etc/systemd/system/lighthousebeacon.service \
 
 #Run Lighthouse
 sudo systemctl daemon-reload
