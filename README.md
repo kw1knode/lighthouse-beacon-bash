@@ -11,7 +11,7 @@
 
 ### **Edit checkpoint url to a trusted source or remove to sync from genesis** ###
 
---checkpoint-sync-url
+`--checkpoint-sync-url`
 
 #### **Run install.sh**
 `./lighthouse_install.sh`
