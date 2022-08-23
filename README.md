@@ -19,6 +19,7 @@ No, in fact it is more secure! Checkpoint sync guards against long-range attacks
 ### **Edit location of jwt.hex to match your deployment, located in erigon data directory** ###
 
 --execution-jwt `/data/erigon/datadir/jwt.hex`
+(Can be found in erigon data directory)
 
 ### **Add flag and location of jwt.hex to erigon** ###
 
