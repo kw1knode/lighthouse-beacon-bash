@@ -13,6 +13,9 @@
 
 --checkpoint-sync-url `https://<PROJECT-ID>:<PROJECT-SECRET>@eth2-beacon-mainnet.infura.io`
 
+Is checkpoint sync less secure?
+No, in fact it is more secure! Checkpoint sync guards against long-range attacks that genesis sync does not. This is due to a property of Proof of Stake consensus known as Weak [Subjectivity](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity).
+
 ### **Edit location of jwt.hex to match your deployment, located in erigon data directory** ###
 
 --execution-jwt `/data/erigon/datadir/jwt.hex`
