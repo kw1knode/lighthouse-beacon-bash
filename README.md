@@ -27,6 +27,8 @@
 
 ### **Lighthouse Status** ###
 
+`sudo journalctl -f -u lighthousebeacon.service`
+
 ### **Lighthouse Grafana Dashboard** ###
 
 https://raw.githubusercontent.com/sigp/lighthouse-metrics/master/dashboards/Summary.json
