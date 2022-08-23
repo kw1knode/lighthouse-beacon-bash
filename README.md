@@ -21,7 +21,7 @@
 
 --authrpc.jwtsecret `/data/erigon/datadir/jwt.hex`
 
-#### **Run install.sh**
+#### **Run install.sh** ###
 
 `./lighthouse_install.sh`
 
