@@ -11,7 +11,11 @@
 
 ### **Edit checkpoint url to a trusted source or remove to sync from genesis** ###
 
-`--checkpoint-sync-url`
+--checkpoint-sync-url `https://<PROJECT-ID>:<PROJECT-SECRET>@eth2-beacon-mainnet.infura.io`
+
+### **Edit location of jwt.hex to match your deployment, located in erigon data directory** ###
+
+--execution-jwt `/data/erigon/datadir/jwt.hex`
 
 #### **Run install.sh**
 `./lighthouse_install.sh`
