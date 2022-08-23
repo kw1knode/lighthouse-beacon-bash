@@ -39,6 +39,9 @@ No, in fact it is more secure! Checkpoint sync guards against long-range attacks
 
 `sudo journalctl -f -u lighthousebeacon.service`
 
+### **Allow Peers** ###
+```allow 9000 tcp/udp on firewall```
+
 ### **Lighthouse Grafana Dashboard** ###
 
 https://raw.githubusercontent.com/sigp/lighthouse-metrics/master/dashboards/Summary.json
