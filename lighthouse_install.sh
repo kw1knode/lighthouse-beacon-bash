@@ -1,8 +1,7 @@
 #!/bin/bash
 #Updates
 sudo apt-get update -y && sudo apt-get upgrade -y
-#Install Rust
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 #Install Dependencies 
 sudo apt install -y git gcc g++ make cmake pkg-config libssl-dev
 
