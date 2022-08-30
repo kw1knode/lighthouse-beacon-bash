@@ -3,7 +3,7 @@
 sudo apt-get update -y && sudo apt-get upgrade -y
 
 #Install Dependencies 
-sudo apt install -y git gcc g++ make cmake pkg-config libssl-dev
+sudo apt install -y git gcc g++ make cmake pkg-config libssl-dev libclang-dev
 
 # Pull and Permissions
 git clone https://github.com/sigp/lighthouse.git
