@@ -2,6 +2,11 @@
 
 
 ========================================================
+### **Install Rust** ###
+Install Rust
+`curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh`
+
+
 ### **Pull and Permissions** ###
 `git clone https://github.com/kw1knode/lighthouse.git`
 
